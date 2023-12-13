@@ -62,7 +62,7 @@ module.exports = {
           30: "#C4B5FD",
           40: "#A78BFA",
           50: "#8B5CF6",
-          60: "#7C3AED",
+          60: "#0073e6",
           70: "#6D28D9",
           80: "#5B21B6",
           90: "#4C1D95",
@@ -285,7 +285,7 @@ module.exports = {
         searchModal: "0px 2px 64px 16px rgba(17, 24, 39, 0.08)",
         toaster: "0px 2px 16px rgba(17, 24, 39, 0.08)",
         border: "0px 0px 0px 1px #E5E7EB",
-        "focus-border": "0px 0px 0px 1px #7C3AED",
+        "focus-border": "0px 0px 0px 1px #0073e6",
         "error-border": "0px 0px 0px 1px #F43F5E",
       },
       keyframes: {

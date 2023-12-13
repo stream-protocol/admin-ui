@@ -131,7 +131,7 @@ const UserTable: React.FC<UserTableProps> = ({
                     t("templates-success", "Success"),
                     t(
                       "templates-invitiation-link-has-been-resent",
-                      "Invitiation link has been resent"
+                      "Invitation link has been resent"
                     ),
                     "success"
                   )

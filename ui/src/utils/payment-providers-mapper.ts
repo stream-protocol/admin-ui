@@ -25,6 +25,10 @@ const providerDescriptors: { [providerKey: string]: Option } = {
     label: "Stripe Blik",
     value: "stripe-blik",
   },
+  "streampay": {
+    label: "USDC",
+    value: "streampay-usdc",
+  },
   "mobilepay-adyen": {
     label: "MobilePay via Adyen",
     value: "mobilepay-adyen",
