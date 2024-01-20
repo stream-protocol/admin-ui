@@ -7,7 +7,7 @@ import useToggleState from "../../../hooks/use-toggle-state"
 import { getErrorMessage } from "../../../utils/error-messages"
 import TwoStepDelete from "../../atoms/two-step-delete"
 import Button from "../../fundamentals/button"
-import Section from "../section"
+import Section from "../../organisms/section"
 import ThumbnailModal from "./thumbnail-modal"
 
 type Props = {

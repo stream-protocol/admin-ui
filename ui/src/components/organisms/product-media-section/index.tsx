@@ -2,7 +2,7 @@ import { Product } from "@medusajs/medusa"
 import { useTranslation } from "react-i18next"
 import useToggleState from "../../../hooks/use-toggle-state"
 import { ActionType } from "../../molecules/actionables"
-import Section from "../section"
+import Section from "../../organisms/section"
 import MediaModal from "./media-modal"
 
 type Props = {

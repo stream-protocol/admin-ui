@@ -1,9 +1,9 @@
 import { useAdminResendNotification } from "medusa-react"
 import React from "react"
 import { useForm } from "react-hook-form"
-import Button from "../../../fundamentals/button"
-import Input from "../../input"
-import Modal from "../../modal"
+import Button from "../../../../components/fundamentals/button"
+import Input from "../../../../components/molecules/input"
+import Modal from "../../../../components/molecules/modal"
 import useNotification from "../../../../hooks/use-notification"
 import { getErrorMessage } from "../../../../utils/error-messages"
 

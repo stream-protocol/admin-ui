@@ -2,7 +2,7 @@ import clsx from "clsx"
 import React, { ReactNode, useContext, useReducer } from "react"
 import Button from "../../fundamentals/button"
 import UTurnIcon from "../../fundamentals/icons/u-turn-icon"
-import Modal, { ModalProps } from "."
+import Modal, { ModalProps } from "../../molecules/modal"
 
 enum LayeredModalActions {
   PUSH,

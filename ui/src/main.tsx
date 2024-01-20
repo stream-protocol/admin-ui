@@ -10,7 +10,7 @@ async function run() {
   try {
     const { default: extensions } = (await import(
       // @ts-ignore - this file is generated at build time
-      "./extensions/_main-entry"
+      "./extensions/_main-entry.ts"
     )) as { default: ExtensionsEntry[] }
     exts = extensions
   } catch (_) {

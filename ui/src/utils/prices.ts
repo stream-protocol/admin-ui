@@ -74,7 +74,7 @@ export const extractOptionPrice = (price, region) => {
 
 /**
  * Checks the list of currencies and returns the divider/multiplier
- * that should be used to calculate the persisted and display amount.
+ * that should be used to calculate the persited and display amount.
  * @param currency
  * @return {number}
  */
@@ -117,8 +117,8 @@ export function formatAmountWithSymbol({
   let locale = "en-US"
 
   // We need this to display 'Kr' instead of 'DKK'
-  if (currency.toLowerCase() === "usd") {
-    locale = "us-US"
+  if (currency.toLowerCase() === "dkk") {
+    locale = "da-DK"
   }
 
   digits = digits ?? currencies[currency.toUpperCase()].decimal_digits

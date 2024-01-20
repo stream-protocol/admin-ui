@@ -1,8 +1,8 @@
 import React from "react"
-import Badge from "../../fundamentals/badge"
+import Badge from "../../../components/fundamentals/badge"
 import Actionables, {
   ActionType,
-} from "../actionables"
+} from "../../../components/molecules/actionables"
 
 type NumberedItemProps = {
   actions?: ActionType[]

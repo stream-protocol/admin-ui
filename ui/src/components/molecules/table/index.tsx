@@ -1,4 +1,4 @@
-import Actionables, { ActionType } from "../actionables"
+import Actionables, { ActionType } from "../../molecules/actionables"
 import FilteringOptions, { FilteringOptionProps } from "./filtering-option"
 
 import React from "react"
